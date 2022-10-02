@@ -1,0 +1,123 @@
+body{
+    background: linear-gradient(225deg, rgba(250, 23, 23, 0), rgba(160, 29, 145, 0.521), rgb(78, 34, 255));
+}
+.row{
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 50px;
+    margin: 30px 20px 0 0;
+    width: 85%;
+}
+header a{
+    margin: 0 25px;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
+}
+.current-page{
+    background-color: rgba(255, 255, 255, 0.719);
+}
+.navbar{
+    padding: 1px;
+}
+#a-nav, #collapsiblenavbar{
+    background-color: #cfa3ff;
+}
+aside{
+    padding: 40px 0;
+    background: linear-gradient(to bottom, #4e22ff, rgba(160, 29, 145, 0));
+    height: 800px;
+    z-index: -1;
+}
+.col-sm-9{
+    padding: 0;
+}
+#y-main section{
+    margin: 150px 0 80px 0;
+    background: transparent;
+}
+.y-content{
+    position: relative;
+    right: 120px;
+}
+.y-b2{
+    position: relative;
+    top: 120px;
+}
+footer{
+    padding: 50px 0 0 0;
+    background-image: url("footer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: fit-content;
+}
+#icon{
+    font-size: x-large;
+}
+@media screen and (min-width:992px) {
+    #y-main-2{
+        display: none;
+    }
+    img{
+        height: 180px;
+        width: 180px;
+        margin-bottom: 35px;
+        border-radius: 50%;
+    }
+    .y-left{
+        padding: 20px 30px 50px 30px;
+        margin: 20px;
+        border-radius: 200px;
+        height: 500px;
+        background-color: #ffc4c4;
+    }
+    .y-right{
+        padding: 100px 30px;
+        margin: 25px 40px;
+        border-radius: 150px;
+        background-color: #ffc4c4;
+    }
+    .y-s-resume{
+        display: none;
+    }
+}
+@media screen and (max-width:992px) {
+    #y-main-1{
+        display: none;
+    }
+    #y-main-2{
+        background: linear-gradient(to right, rgba(255, 136, 136, 0.89), rgba(160, 29, 145, 0.897));
+    }
+    img{
+        height: 250px;
+        width: 85%;
+        margin-bottom: 20px;
+    }
+    .y-left{
+        margin-top: 100px;
+        padding: 28px;
+        border-radius: 28px;
+        background-color: rgb(160, 29, 145);
+    }
+    .y-right{
+        margin-top: 2px;
+        padding: 25px;
+        border-radius: 25px;
+        background-color: #ff8888;
+    }
+    .y-section-1{
+        background: linear-gradient(to top, transparent, rgba(160, 29, 145, 0.897));
+    }
+    .y-section-2{
+        background: linear-gradient(to bottom, transparent, rgba(255, 136, 136, 0.89));
+    }
+    .y-l-resume{
+        display: none;
+    }
+}
